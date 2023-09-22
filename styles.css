@@ -1,0 +1,64 @@
+body{
+  color:black;
+  text-align:center;
+  font-size: 22px;
+  
+
+}
+header{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+  }
+
+
+nav a{
+    color: black;
+    padding: 10px 10px  ;
+    display:inline-block;
+}
+
+.mission{
+ background-image: url('https://images.unsplash.com/photo-1695065906720-19e9c4d4644e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2988&q=80');
+ height:300px;
+ display:flex;
+}
+.mission .content{
+  margin:auto;
+  background-color: aliceblue;
+  width:100%
+}
+
+.portfolio {
+  min-height: 500px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.container-img{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sub-container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub-container img{
+  height: auto;
+  padding:10px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
