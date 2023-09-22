@@ -62,3 +62,22 @@ nav a{
   margin-right: auto;
   
 }
+
+.container-team{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url('https://media.istockphoto.com/id/172792975/fr/photo/cheminée-dusine-et-sur-le-toit.jpg?s=1024x1024&w=is&k=20&c=VQTTZGPzi9rQTHhWgvibV0uNM834N-F2Uxz_ABWkriY=');
+}
+.sub-team{
+  color: white;
+  padding-top: 50px;
+  flex-basis: 280px;
+  
+
+}
+#img{
+  width:200px;
+  height:auto;
+}
+
